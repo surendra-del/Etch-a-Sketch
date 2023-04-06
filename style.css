@@ -1,0 +1,54 @@
+body {
+    font-family: 'Kalam', cursive;
+    margin: 0;
+    background-color: black;
+    color: aliceblue;
+}
+
+/* Header */
+.header {
+    font-family: 'Permanent Marker', cursive;
+    padding: 20px 0;
+    text-align: center;
+    font-size: 80px;
+}
+
+/* Main */
+.main {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/* inputs */
+.inputs {
+    padding: 30px;
+    background-color: #202020;
+}
+
+/* Container */
+.container {
+    width: 650px;
+    height: 650px;
+    background-color: white;
+    border: 30px solid #202020;
+    display: flex;
+    flex-direction: column;
+}
+
+.row {
+    flex: 1;
+    display: flex;
+}
+
+.border-top-left {
+    border-top: 1px solid rgb(156, 156, 156);
+    border-left: 1px solid rgb(156, 156, 156);
+}
+
+.column {
+    flex: 1;
+}
+
+.column:hover {
+    background-color: black;
+}
