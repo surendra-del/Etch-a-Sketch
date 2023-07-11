@@ -16,6 +16,7 @@ body {
 /* Main */
 .main {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-evenly;
 }
 
@@ -27,8 +28,8 @@ body {
 
 /* Container */
 .container {
-    width: 650px;
-    height: 650px;
+    min-width: 650px;
+    min-height: 650px;
     background-color: white;
     border: 30px solid #202020;
     display: flex;
@@ -38,6 +39,7 @@ body {
 .row {
     flex: 1;
     display: flex;
+    user-select: none;
 }
 
 .border-top-left {
@@ -47,8 +49,9 @@ body {
 
 .column {
     flex: 1;
+    user-select: none;
 }
-
+/* 
 .column:hover {
     background-color: black;
-}
+} */ 
