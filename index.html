@@ -14,20 +14,26 @@
     <div class="header">Etch a Sketch</div>
     <div class="main">
         <div class="inputs">
-            <div class="colors">
-                <div class="color-card">
-                    <input type="color">
-                    <span>Pen Color</span>
-                </div>
-                <div class="color-card">
-                    <input type="color">
-                    <span>background Color</span>
-                </div>    
-            </div>
 
             <div class="toggle-buttons">
-                <button></button>
+                <div class="color-card">
+                    <input type="color">
+                    <!-- <span>Pen Color</span> -->
+                </div>
+                <button>Color Mode</button>
+                <button>Rainbow Mode</button>
+                <button>Eraser</button>
+                <button>Darken</button>
             </div>
+
+            <div class="grid-range">
+                <input type="range" id="gridSlider" min="1" max="100" value="16">
+                <div id="progressBar"></div>
+                <p id="gridSize">grid Size: 16 x 16</p>
+                <button id="gridLines">Toggle Grid</button>
+            </div>
+
+            <button>Clear</button>
         </div>
         <div class="container"></div>
     </div>
