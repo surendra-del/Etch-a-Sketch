@@ -17,23 +17,23 @@
 
             <div class="toggle-buttons">
                 <div class="color-card">
-                    <input type="color">
+                    <input id="colorPicker" type="color">
                     <!-- <span>Pen Color</span> -->
                 </div>
-                <button>Color Mode</button>
-                <button>Rainbow Mode</button>
-                <button>Eraser</button>
-                <button>Darken</button>
+                <button id="colorBtn">Color Mode</button>
+                <button id="rainbowBtn">Rainbow Mode</button>
+                <button id="eraseBtn">Eraser</button>
+                <button id="darkenBtn">Darken</button>
             </div>
 
             <div class="grid-range">
                 <input type="range" id="gridSlider" min="1" max="100" value="16">
                 <div id="progressBar"></div>
-                <p id="gridSize">grid Size: 16 x 16</p>
-                <button id="gridLines">Toggle Grid</button>
+                <p >grid Size: <span id="gridSizeDisplay">16 x 16</span></p>
+                <button id="gridLinesBtn">Toggle Grid</button>
             </div>
 
-            <button>Clear</button>
+            <button id="clearBtn">Clear</button>
         </div>
         <div class="container"></div>
     </div>

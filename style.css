@@ -78,6 +78,19 @@ button {
     width: 100%;
 }
 
+button, input[type='color'] {
+  transition: transform 0.1s ease-in-out;
+}
+
+button:hover, input[type='color']:hover {
+    transform: scale(1.05);
+}
+
+button.active {
+    background-color: aliceblue;
+    color: #202020;
+}
+
 /* Container */
 .container {
     min-width: 650px;
@@ -128,7 +141,7 @@ input[type='range']::-webkit-slider-thumb {
 }
 
 #progressBar {
-    width: 40%;
+    width: 16%;
     height: 2px;
     background-color: aliceblue;
     border-radius: 2px;
